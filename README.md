@@ -11,18 +11,7 @@ The current version recognizes four gestures:
 - Peace
 - Stop
 
-## Project Highlights
-
-- Built an end-to-end image classification pipeline in PyTorch
-- Streamed selected images directly from Hugging Face instead of downloading the full dataset
-- Used MobileNetV3-Small with ImageNet pretrained weights
-- Implemented two-stage transfer learning and fine-tuning
-- Added image augmentation to improve generalization
-- Evaluated the model using accuracy, precision, recall, F1-score, and a confusion matrix
-- Built real-time webcam inference using OpenCV
-- Added prediction smoothing to reduce unstable frame-by-frame predictions
-
-## Architecture
+Architecture
 
 ```text
 Hugging Face Dataset
@@ -308,7 +297,7 @@ I worked through:
 
 ## Future Improvements
 
-The current version is a working MVP. Some improvements I would make next are:
+The current version is a working Project. Some improvements I would make next are:
 
 - Increase the amount of training data
 - Add more gesture classes
